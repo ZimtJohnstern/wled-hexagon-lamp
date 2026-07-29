@@ -1,0 +1,12 @@
+Partlist exported from ESP32_WLED_WS2801
+
+Reference Designators Quantity Description                                                   Package                Value            Manufacturer                    Manufacturer Part Number Vendor Vendor Part Number Top/Bottom 
+                      1        Board                                                         Board                                                                                                                                 
+C1, C2                2        Capacitor Polarised - Generic                                 CAPPRD200W80D500H1100B 470µF                                                                                              Top        
+C3                    1        CAPACITOR, European symbol                                    C050-025X075           100nF                                                                                               Top        
+F1                    1        FUSE HLDR CARTRIDGE 250V 5A PCB                               4527                   4527             Keystone Electronics            4527                                               Top        
+IC1                   1        Quad bus BUFFER, 3-state                                      DIL14                  74125N                                                                                              Top        
+JP1, JP2              2        Pin Header                                                    1X15                   PINHD-1X15                                                                                          Top        
+R1, R2                2        RESISTOR, European symbol                                     0207/10                100                                                                                                 Top        
+U$1                   1        2 Position Wire to Board Terminal Block Horizontal with Board TERMBLK_508-2N         2828XX-2282837-2 TE Connectivity AMP Connectors  282837-2                                           Top        
+U$2                   1        4 Position Wire to Board Terminal Block Horizontal with Board TERMBLK_508-4N         2828XX-4282837-4 TE Connectivity AMP Connectors  282837-4                                           Top        

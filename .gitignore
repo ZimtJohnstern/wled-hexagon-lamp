@@ -1,0 +1,23 @@
+# PlatformIO / Arduino
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+*.hex
+*.bin
+
+# Fusion 360 lokale Cache-/Backupdateien (falls lokal statt über Fusion-Cloud versioniert)
+*.f3d.bak
+*.f3z
+~$*
+*.lock
+
+# WLED Build-Artefakte (falls WLED als Submodule/Subordner eingebunden ist)
+WLED/build_output/
+WLED/.pio/
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/

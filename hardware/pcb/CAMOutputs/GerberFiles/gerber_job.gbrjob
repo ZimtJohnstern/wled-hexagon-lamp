@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2026-07-28T15:33:41Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.6608,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "ESP32_WLED_WS2801"
+        },
+        "Owner": "Zimt Johnstern",
+        "Size": {
+            "X": 75.87,
+            "Y": 58.41
+        }
+    }
+}
