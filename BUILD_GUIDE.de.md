@@ -31,21 +31,25 @@ Eine modulare 6-Hexagon-LED-Wandlampe auf Basis von [WLED](https://github.com/wl
 
 Vollständige BOM: [`hardware/pcb/BOM.txt`](hardware/pcb/BOM.txt)
 
-| Ref | Bauteil | Menge | Wert/Typ |
-|---|---|---|---|
-| — | ESP32-WROOM-32 Devboard | 1 | 30-Pin |
-| — | LED-Strip | 135 LEDs gesamt | WS2801, 5 V |
-| — | Netzteil | 1 | 5 V / 10 A |
-| C1, C2 | Elko | 2 | 470 µF |
-| C3 | Kondensator | 1 | 100 nF |
-| F1 | Sicherungshalter | 1 | 250 V / 5 A (Keystone 4527) |
-| IC1 | Level-Buffer | 1 | 74AHCT125 |
-| JP1, JP2 | Pfostenleiste 1×15 | 2 | Steckleisten für ESP32-Devboard |
-| R1, R2 | Widerstand | 2 | 100 Ω |
-| U$1 | Klemme 2-polig | 1 | Power In: V+/V− (5V/10A-Netzteil, über F1 abgesichert) |
-| U$2 | Klemme 4-polig | 1 | LED-Ausgang: V+, Data, CLK, V− |
+| Ref | Bauteil | Menge | Wert / Typ |  Link |
+| :--- | :--- | :---: | :--- | :--- | 
+| **—** | **Microcontroller** | 1 | ESP32 DevBoard | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c32ZkRiR)* |
+| **—** | **LED-Streifen** | 1 | WS2801 (5 Meter) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3UGIH2X)* |
+| **IC1** | **Quad-Bus-Buffer** | 1 | SN74AHCT125N | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4MjYV6J)* |
+| **F1** | **Sicherungshalter** | 1 | 250 V / 5 A (bzw. 10 A) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4r8BMD1)* |
+| **C1, C2** | **Elko (Kondensator)** | 2 | 470 µF | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c39kk2Jl)* |
+| **C3** | **Kondensator** | 1 | 100 nF | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3iZH0cB)* |
+| **R1, R2** | **Widerstand** | 2 | 100 Ω | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3YJjZPD)* |
+| **U$1** | **Klemmleiste 2-polig** | 1 | 2828XX-2282837-2 | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3zC1WLl)* |
+| **U$2** | **Klemmleiste 4-polig** | 1 | 2828XX-4282837-4 | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3zC1WLl)* |
+| **—** | **Netzteil** | 1 | 5V / 10A | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4Lgpqx9)* |
+| **-** | Filament | — | Kingroon PETG (für das Gehäuse) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3n4955V)* 
 
-**Hinweis IC1 (74AHCT125):** HCT-Variante mit TTL-kompatiblem Eingang (verträgt 3,3V-Logik vom ESP32) und vollem 5V-CMOS-Ausgangshub — funktioniert als Pegelwandler zwischen ESP32 und WS2801. Auf dem Bauteil selbst bzw. im Handel teils nur generisch als "74125" gelistet — auf die **AHCT**-Variante achten, sonst kein sauberer High-Pegel am Strip.
+
+### 📢 Transparenzhinweis & Support
+Die mit einem Sternchen (`*`) gekennzeichneten Produktlinks sind sogenannte **Affiliate-Links**. Wenn du über diese Links auf AliExpress einkaufst, erhalte ich eine kleine Provision vom Händler. Für dich entstehen dabei **absolut keine Mehrkosten**. Du unterstützt damit direkt die Weiterentwicklung und Pflege dieses Open-Source-Projekts. Vielen Dank!
+
+**Hinweis IC1 (SN74AHCT125N):** HCT-Variante mit TTL-kompatiblem Eingang (verträgt 3,3V-Logik vom ESP32) und vollem 5V-CMOS-Ausgangshub — funktioniert als Pegelwandler zwischen ESP32 und WS2801. Auf dem Bauteil selbst bzw. im Handel teils nur generisch als "74125" gelistet — auf die **AHCT**-Variante achten, sonst kein sauberer High-Pegel am Strip.
 
 ---
 
