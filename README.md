@@ -15,7 +15,7 @@
 | MCU | ESP32-WROOM-32, 30-pin devboard |
 | LEDs | WS2801, 135 LEDs total, 6 hexagons |
 | Power supply | 5 V / 10 A |
-| Level buffer | IC1: 74AHCT125 |
+| Level buffer | IC1: SN74AHCT125N |
 | Data pin (ESP32) | GPIO 23 |
 | Clock pin (ESP32) | GPIO 18 |
 
