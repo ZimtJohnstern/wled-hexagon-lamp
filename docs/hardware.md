@@ -12,7 +12,7 @@ Die folgende Tabelle listet die verwendeten Elektronikkomponenten für das Proje
 | **—** | **Microcontroller** | 1 | ESP32 DevBoard | 30-Pin Version | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c32ZkRiR)* |
 | **—** | **LED-Streifen** | 1 | WS2801 (5 Meter) | Digital steuerbarer LED-Strip (Data & CLK) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3UGIH2X)* |
 | **IC1** | **Quad-Bus-Buffer** | 1 | SN74AHCT125N | DIL14 (Pegelwandler für Datensignal) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4MjYV6J)* |
-| **F1** | **Sicherungshalter** | 1 | 250 V / 5 A (bzw. 10 A) | Keystone 4527 / Inkl. Sicherung | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4r8BMD1)* |
+| **F1** | **Sicherungshalter** | 1 | 250 V / 10 A | Keystone 4527 / Inkl. Sicherung | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4r8BMD1)* |
 | **C1, C2** | **Elko (Kondensator)** | 2 | 470 µF | CAPPRD200W80D500H1100B (Aus Kit) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c39kk2Jl)* |
 | **C3** | **Kondensator** | 1 | 100 nF | C050-025X075 (Aus Metallkondensator-Kit) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3iZH0cB)* |
 | **R1, R2** | **Widerstand** | 2 | 100 Ω | 0207/10 | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3YJjZPD)* |
