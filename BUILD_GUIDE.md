@@ -31,26 +31,25 @@ A modular 6-hexagon LED wall lamp based on [WLED](https://github.com/wled/WLED),
 
 Full BOM: [`hardware/pcb/BOM.txt`](hardware/pcb/BOM.txt)
 
-| Ref | Part | Qty | Value / Type |  Link |
-| :--- | :--- | :---: | :--- | :--- | 
-| **—** | **Microcontroller** | 1 | ESP32 DevBoard | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c32ZkRiR)* |
-| **—** | **LED-Streifen** | 1 | WS2801 (5 Meter) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3UGIH2X)* |
-| **IC1** | **Quad-Bus-Buffer** | 1 | SN74AHCT125N | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4MjYV6J)* |
-| **F1** | **Sicherungshalter** | 1 | 250 V / 5 A (bzw. 10 A) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4r8BMD1)* |
-| **C1, C2** | **Elko (Kondensator)** | 2 | 470 µF | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c39kk2Jl)* |
-| **C3** | **Kondensator** | 1 | 100 nF | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3iZH0cB)* |
-| **R1, R2** | **Widerstand** | 2 | 100 Ω | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3YJjZPD)* |
-| **U$1** | **Klemmleiste 2-polig** | 1 | 2828XX-2282837-2 | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3zC1WLl)* |
-| **U$2** | **Klemmleiste 4-polig** | 1 | 2828XX-4282837-4 | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3zC1WLl)* |
-| **—** | **Netzteil** | 1 | 5V / 10A | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4Lgpqx9)* |
-| **-** | Filament | — | Kingroon PETG (für das Gehäuse) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3n4955V)* 
+| Ref | Component | Qty | Value / Type | Link |
+| :--- | :--- | :---: | :--- | :--- |
+| **—** | **Microcontroller** | 1 | ESP32 DevBoard | [View on AliExpress](https://s.click.aliexpress.com/e/_c32ZkRiR)* |
+| **—** | **LED Strip** | 1 | WS2801 (5 Meters) | [View on AliExpress](https://s.click.aliexpress.com/e/_c3UGIH2X)* |
+| **IC1** | **Quad Bus Buffer** | 1 | SN74AHCT125N | [View on AliExpress](https://s.click.aliexpress.com/e/_c4MjYV6J)* |
+| **F1** | **Fuse Holder** | 1 | 250 V / 10 A | [View on AliExpress](https://s.click.aliexpress.com/e/_c4r8BMD1)* |
+| **C1, C2** | **Electrolytic Cap** | 2 | 470 µF | [View on AliExpress](https://s.click.aliexpress.com/e/_c39kk2Jl)* |
+| **C3** | **Capacitor** | 1 | 100 nF | [View on AliExpress](https://s.click.aliexpress.com/e/_c3iZH0cB)* |
+| **R1, R2** | **Resistor** | 2 | 100 Ω | [View on AliExpress](https://s.click.aliexpress.com/e/_c3YJjZPD)* |
+| **U$1** | **Terminal Block 2-pin** | 1 | 2828XX-2282837-2 | [View on AliExpress](https://s.click.aliexpress.com/e/_c3zC1WLl)* |
+| **U$2** | **Terminal Block 4-pin** | 1 | 2828XX-4282837-4 | [View on AliExpress](https://s.click.aliexpress.com/e/_c3zC1WLl)* |
+| **—** | **Power Supply** | 1 | 5V / 10A | [View on AliExpress](https://s.click.aliexpress.com/e/_c4Lgpqx9)* |
+| **—** | **Filament** | — | Kingroon PETG (for enclosure) | [View on AliExpress](https://s.click.aliexpress.com/e/_c3n4955V)* |
 
 ---
 
-### 📢 Transparenzhinweis & Support
-Die mit einem Sternchen (`*`) gekennzeichneten Produktlinks sind sogenannte **Affiliate-Links**. Wenn du über diese Links auf AliExpress einkaufst, erhalte ich eine kleine Provision vom Händler. Für dich entstehen dabei **absolut keine Mehrkosten**. Du unterstützt damit direkt die Weiterentwicklung und Pflege dieses Open-Source-Projekts. Vielen Dank!
+## 📢 Affiliate Disclosure & Support
 
-**Note on IC1 (SN74AHCT125N):** HCT variant with TTL-compatible input (tolerates the ESP32's 3.3V logic) and full 5V CMOS output swing — works as a level shifter between the ESP32 and the WS2801 strip. Often listed generically as just "74125" in stock/BOM exports — make sure you get the **AHCT** variant, otherwise you won't get a clean high signal at the strip.
+Product links marked with an asterisk (*) are affiliate links. If you purchase items through these links on AliExpress, I will receive a small commission from the seller. This comes at absolutely no extra cost to you. By using these links, you directly support the further development and maintenance of this open-source project. Thank you for your support!
 
 ---
 
