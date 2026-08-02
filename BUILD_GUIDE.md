@@ -32,7 +32,7 @@ A modular 6-hexagon LED wall lamp based on [WLED](https://github.com/wled/WLED),
 Full BOM: [`hardware/pcb/BOM.txt`](hardware/pcb/BOM.txt)
 
 | Ref | Part | Qty | Value / Type | Link |
-| :--- | :--- | :---: | :--- | :--- | :--- |
+| :--- | :--- | :---: | :--- | :--- |
 | **—** | **Microcontroller** | 1 | ESP32 DevBoard | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c32ZkRiR)*
 | **—** | **LED-Streifen** | 1 | WS2801 (5 Meter) | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c3UGIH2X)*
 | **IC1** | **Quad-Bus-Buffer** | 1 | SN74AHCT125N | [Auf AliExpress ansehen](https://s.click.aliexpress.com/e/_c4MjYV6J)*
