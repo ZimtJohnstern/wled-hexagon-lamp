@@ -3,18 +3,29 @@
 ## Stückliste (BOM)
 
 Quelle: Export aus Fusion Electronics/EAGLE, Projekt `ESP32_WLED_WS2801` (`hardware/pcb/BOM.txt`).
+## Stückliste / Bill of Materials (BOM)
 
-| Ref | Bauteil | Menge | Wert/Typ | Package | Hersteller/Teilenr. |
-|---|---|---|---|---|---|
-| — | Board | 1 | — | — | — |
-| C1, C2 | Elko | 2 | **470 µF** | CAPPRD200W80D500H1100B | — |
-| C3 | Kondensator | 1 | 100 nF | C050-025X075 | — |
-| F1 | Sicherungshalter | 1 | 250 V / 5 A | Keystone 4527 | 4527 |
-| IC1 | Quad-Bus-Buffer, 3-state | 1 | **74AHCT125** (BOM-Text nennt "74125N", tatsächlich verbautes Bauteil ist die AHCT-Variante) | DIL14 | — |
-| R1, R2 | Widerstand | 2 | 100 Ω | 0207/10 | — |
-| U$1 | Klemmleiste, 2-polig | 1 | 2828XX-2282837-2 | TE Connectivity 282837-2 | **Power In: V+ / V−** vom 5V/10A-Netzteil, abgesichert über F1 (250V/5A) |
-| U$2 | Klemmleiste, 4-polig | 1 | 2828XX-4282837-4 | TE Connectivity 282837-4 | **Ausgang zu WS2801: V+, Data, CLK, V−** |
-| JP1, JP2 | Pfostenleiste | 2 | 1×15 | — | **Steckleisten für ESP32-Devboard, 30-Pin** (je 15 Pins pro Seite) |
+Die folgende Tabelle listet die verwendeten Elektronikkomponenten für das Projekt auf. Die Links führen direkt zu den von mir verwendeten Artikeln auf AliExpress:
+
+| Ref | Bauteil | Menge | Wert / Typ | Package / Info | Link |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| **—** | **Microcontroller** | 1 | ESP32 DevBoard | 30-Pin Version | [Auf AliExpress ansehen](https://aliexpress.com)* |
+| **—** | **LED-Streifen** | 1 | WS2801 (5 Meter) | Digital steuerbarer LED-Strip (Data & CLK) | [Auf AliExpress ansehen](https://de.aliexpress.com/item/1726487236.html)* |
+| **IC1** | **Quad-Bus-Buffer** | 1 | SN74AHCT125N | DIL14 (Pegelwandler für Datensignal) | [Auf AliExpress ansehen](https://aliexpress.com)* |
+| **F1** | **Sicherungshalter** | 1 | 250 V / 5 A (bzw. 10 A) | Keystone 4527 / Inkl. Sicherung | [Auf AliExpress ansehen](https://aliexpress.com)* |
+| **C1, C2** | **Elko (Kondensator)** | 2 | 470 µF | CAPPRD200W80D500H1100B (Aus Kit) | [Auf AliExpress ansehen](https://aliexpress.com)* |
+| **C3** | **Kondensator** | 1 | 100 nF | C050-025X075 (Aus Metallkondensator-Kit) | [Auf AliExpress ansehen](https://aliexpress.com)* |
+| **R1, R2** | **Widerstand** | 2 | 100 Ω | 0207/10 | [Auf AliExpress ansehen](https://aliexpress.com)* |
+| **U$1** | **Klemmleiste 2-polig** | 1 | 2828XX-2282837-2 | Stromversorgung In: V+ / V- vom Netzteil | [Auf AliExpress ansehen](https://aliexpress.com)* |
+| **U$2** | **Klemmleiste 4-polig** | 1 | 2828XX-4282837-4 | Ausgang zu WS2801: V+, Data, CLK, V- | [Auf AliExpress ansehen](https://aliexpress.com)* |
+| **—** | **Netzteil** | 1 | 5V / 10A | Stromversorgung für das Gesamtsystem | [Auf AliExpress ansehen](https://aliexpress.com)* |
+
+---
+
+### 📢 Transparenzhinweis & Support
+Die mit einem Sternchen (`*`) gekennzeichneten Produktlinks sind sogenannte **Affiliate-Links**. Wenn du über diese Links auf AliExpress einkaufst, erhalte ich eine kleine Provision vom Händler. Für dich entstehen dabei **absolut keine Mehrkosten**. Du unterstützt damit direkt die Weiterentwicklung und Pflege dieses Open-Source-Projekts. Vielen Dank!
+
+(Links derzeit in Freigabe bei ALiExpress)
 
 Ergänzend (nicht Teil des EAGLE-Exports, aber Teil des Gesamtsystems):
 
@@ -41,6 +52,3 @@ Ergänzend (nicht Teil des EAGLE-Exports, aber Teil des Gesamtsystems):
 
 **Zum Vergleich, Original-Community-Modell (NickiDotDK, andere Spannungslage):** Dessen Bauanleitung nutzt 12V-LED-Strips (nicht adressierbar, kein WS2801) und empfiehlt dort, bei 4 Hexagonen 3 einzelne Strips separat mit Strom zu speisen ("power infuse"). Das ist ein anderer LED-Typ mit anderer Spannung als in diesem Projekt (WS2801, 5V) — als Hintergrund erwähnt, aber nicht direkt auf dieses Setup übertragbar.
 
-## Noch zu ergänzen
-
-- Genaue Pin-für-Pin-Belegung JP1/JP2 gegen ESP32-DevKit-Pinout (welche der 30 Pins sind belegt, welche frei)
